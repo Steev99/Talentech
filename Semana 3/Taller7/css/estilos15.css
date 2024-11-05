@@ -1,0 +1,20 @@
+body{
+
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+p{
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+}
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+ul {
+    background-color: black;
+}

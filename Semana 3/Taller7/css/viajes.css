@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 20px;
+    color: slateblue;
+    text-align: right;
+    font-size: 2em;
+    background: greenyellow;
+}
+section {
+    display: flex;
+}
+article{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+#art1{
+    background: rgb(235, 251, 6);
+}
+#art2{
+    background: rgb(3, 28, 255);
+}
+#art3{
+    background: rgb(252, 3, 3);
+}
+p{
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 100%;
+}

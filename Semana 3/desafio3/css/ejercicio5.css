@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eef3;
+}
+.centro{
+    grid-column: 2;
+}
+.centro a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.centro a:hover{
+    background-color: aqua;
+    color: blueviolet;
+}
+

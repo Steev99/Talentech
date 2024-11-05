@@ -1,0 +1,28 @@
+body{
+    background: rgb(123, 232, 212);
+    font-family: Agency FB, sans-serif;
+    color: black;
+}
+
+h1{
+    color: rgb(160, 8, 255);
+    font-size: 40px;
+}
+
+h2 {
+    color: chartreuse;
+    font-size: 30px;
+}
+strong {
+    color: rgb(162, 0, 255);
+}
+
+#uno{
+    color: rgb(255, 14, 207);
+}
+#dos{
+    color: brown;
+}
+#tres{
+    color: blanchedalmond;
+}

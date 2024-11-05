@@ -1,0 +1,25 @@
+#indice a:link {
+    color: chartreuse;
+    text-decoration: none;
+}
+#indice a:visited{
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: none;
+}
+#indice a:hover {
+    background-color: antiquewhite;
+    color: cadetblue;
+    text-transform: uppercase;
+}
+#pie a:link {
+    color: blue;
+    text-decoration: none;
+}
+#pie a:hover {
+    background-color: aqua;
+    border-style: solid;
+    border-color: crimson;
+    color: coral;
+    font-style: normal;
+}

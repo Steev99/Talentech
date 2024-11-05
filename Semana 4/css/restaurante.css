@@ -1,0 +1,107 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+}
+img{
+    width: 100%; 
+}
+.banner{
+    height: 50vh;
+    margin-top: -60px;
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+.header_contenido{
+    position: absolute;
+    z-index: 100;
+}
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner_description{
+    position: absolute;
+    text-align: center;
+    color: white;
+    transform: translateX(-50%) translateY(-30%);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.boton1{
+    background-color: yellowgreen;
+    border: none;
+    padding: 12px;
+    color: white;
+    text-transform: uppercase;    
+}
+.boton1:hover{
+    border: 5px solid rgb(18, 223, 69);
+    background: none;
+}
+.galeria{
+    margin: 20px;
+
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.equipo{
+    padding: 30px;
+}
+.equipo img{
+    border-radius: 50%;
+}
+.grid_equipo{
+    display: grid;
+    grid-gap: 30px;
+}
+.info h3{
+    color: aqua;
+    font-size: 30px;
+}
+.info-column{
+    margin: 20px;
+}
+.info .contenedor{
+    display: grid;
+    grid-gap: 10px;
+}
+.banner2{
+    height: 50vh;
+    color: rgb(8, 255, 78);
+    position: relative;
+    background-image: url(../img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}

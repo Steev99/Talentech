@@ -1,0 +1,7 @@
+@font-face{
+    font-family: "rosaly";
+    src: url(../fuentes/DancingScript-Regular.ttf);
+}
+h1{
+    font-family: "rosaly";
+}

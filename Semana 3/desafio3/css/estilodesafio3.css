@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 30px;
+    background: #333;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #81bff3;
+}
+.menu a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.menu a:hover{
+    background-color: #555;
+}
