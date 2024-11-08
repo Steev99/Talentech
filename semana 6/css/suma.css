@@ -1,0 +1,30 @@
+body{
+    transform: translateX(520px) translateY(80%);
+    background-color: yellowgreen;
+}
+
+.operaciones{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    transform: translateX(130px) translateY(-60%);
+}
+.primer{
+    transform: translateX(40px) translateY(-03%);
+}
+.segundo{
+    transform: translateX(40px) translateY(-03%);
+}
+.tercero{
+    transform: translateX(40px) translateY(-03%);
+}
+.label{
+    padding: 10px;
+}
+.contenedor{
+    background-image: url(../img/imagen1.jpg);
+    position: fixed;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}

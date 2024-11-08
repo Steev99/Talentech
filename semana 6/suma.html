@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/suma.css">
     <title>Suma</title>
 </head>
-<body>
-    
+    <body>
+        <div class="contenedor">
+            <div class="label">
+                <input type="text" id="entrada" class="screen">
+            </div>
+
+            <div class="primer">
+                <button onclick="displey('1')">1</button>
+                <button onclick="displey('2')">2</button>
+                <button onclick="displey('3')">3</button>
+
+            </div>
+            <div class="segundo">
+                <button onclick="displey('4')">4</button>
+                <button onclick="displey('5')">5</button>
+                <button onclick="displey('6')">6</button>
+            </div>
+            <div class="tercero">
+                <button onclick="displey('7')">7</button>
+                <button onclick="displey('8')">8</button>
+                <button onclick="displey('9')">9</button>
+            </div>
+            <div class="operaciones">
+                <button onclick="displey('+')">+</button>
+                <button onclick="displey('-')">-</button>
+                <button onclick="displey('/')">/</button>
+                <button onclick="borrar('C')">C</button>
+                <button onclick="igual('=')">=</button>
+            </div>
+        </div>
     <script src="./js/suma.js"></script>
 </body>
 </html>
