@@ -23,8 +23,7 @@ body{
 }
 .contenedor{
     background-image: url(../img/imagen1.jpg);
-    position: fixed;
-    background-position: center;
+    transform: translateX(-100px) translateY(-100px);
     height: 200px;
     width: 200px;
 }

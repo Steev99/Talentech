@@ -1,5 +1,5 @@
-function displey(valor) {
-    document.getElementById('entrada').value += valor;
+function numero(resultado) {
+    document.getElementById('entrada').value += resultado;
 }
 
 function borrar() {

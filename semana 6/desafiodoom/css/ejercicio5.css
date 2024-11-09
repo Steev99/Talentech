@@ -1,0 +1,14 @@
+
+/* Estilo por defecto del encabezado */
+#encabezado {
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Estilo cuando la clase 'activo' es añadida */
+#encabezado.activo {
+    color: red;
+    font-size: 28px;
+    background-color: lightgray;
+}
