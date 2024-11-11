@@ -7,10 +7,17 @@
     "express": "^4.21.1",
     "node": "^22.11.0",
     "node-bin-setup": "^1.1.3",
+    "nodemon": "^3.1.7",
     "one-liner-joke": "^1.2.2"
   },
   "scripts": {
-    "start": "node index2.js"
+    "start": "node ejercicio5/index3.js",
+    "ej6": "node ej6/ej6.js",
+    "ej7": "node ej7/index.js",
+    "ej8": "node ej8/ej8.js",
+    "ej9": "node ej9/ej9.js",
+    "dev": "nodemon",
+    "ejer1": "nodemon nodemonejer/ejer1.js"
   },
   "author": "Steeven",
   "license": "ISC",
