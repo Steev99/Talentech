@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1731477415264,
+    "nombre": "Steeven Velandia",
+    "email": "rr@r.com",
+    "password": "123456789",
+    "fechaRegistro": "2024-11-13T05:56:55.264Z"
+  },
+  {
+    "id": 1731555521102,
+    "nombre": "a",
+    "email": "a@a.com",
+    "password": "a",
+    "fechaRegistro": "2024-11-14T03:38:41.102Z"
+  },
+  {
+    "id": 1731555647108,
+    "nombre": "hola",
+    "email": "q@q.com",
+    "password": "123456",
+    "fechaRegistro": "2024-11-14T03:40:47.108Z"
+  },
+  {
+    "id": 1731555913383,
+    "nombre": "qqq",
+    "email": "w@w.com",
+    "password": "123456",
+    "fechaRegistro": "2024-11-14T03:45:13.383Z"
+  },
+  {
+    "id": 1731556421255,
+    "nombre": "tete",
+    "email": "y@ty.com",
+    "password": "54132",
+    "fechaRegistro": "2024-11-14T03:53:41.255Z"
+  }
+]
